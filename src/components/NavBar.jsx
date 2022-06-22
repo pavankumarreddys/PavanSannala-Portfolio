@@ -72,7 +72,7 @@ function NavBar() {
               left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400'>
 
                   {links.map(({ id, link }) => (
-                      <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl">
+                      <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 duration-200 hover:text-gray-100">
                           <Link onClick={handleClick} to={link} smooth duration-400>{link}</Link>
 
                       </li>
