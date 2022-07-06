@@ -3,26 +3,34 @@ import React from 'react'
 import digitalClock from '../assets/portfolio/digitalClock.png'
 import movingTaxi from '../assets/portfolio/movingTaxi.png'
 import profileCard from '../assets/portfolio/profileCard.png'
+import quiz from '../assets/portfolio/quiz.png'
 
 
 function Portfolio() {
 
     const portfolios = [
+    
         {
             id: 1,
+            src: quiz,
+            demoLink:'https://flashcardquiz-santoshkumarkuchettireactproject.netlify.app',
+            codeLink:'https://github.com/santosh-kuchetti/flashCard-Quiz',
+        },
+        {
+            id: 2,
             src: movingTaxi,
             demoLink:'https://santosh-kuchetti.github.io/movingTaxi/',
             codeLink:'https://github.com/santosh-kuchetti/movingTaxi',
         },
         
         {
-            id: 2,
+            id: 3,
             src: digitalClock,
             demoLink: 'https://santosh-kuchetti.github.io/digitalClock/',
             codeLink: 'https://github.com/santosh-kuchetti/digitalClock',
         },
         {
-            id: 3,
+            id: 4,
             src: profileCard,
             demoLink: 'https://santosh-kuchetti.github.io/profilrCardHoverEffect/',
             codeLink: 'https://github.com/santosh-kuchetti/profilrCardHoverEffect',
