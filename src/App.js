@@ -12,8 +12,7 @@ import './App.css'
 
 function App() {
   return (
-    <div >
-
+    <div>
       <Helmet>
         <meta charSet="utf-8" />
         <title>PavanSannala || Portfolio</title>
@@ -26,11 +25,7 @@ function App() {
       <Portfolio />
       <Skills/>
       <Contact/>
-
-
       <SocialLinks/>
-
-      
     </div>
   );
 }

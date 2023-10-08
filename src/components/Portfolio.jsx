@@ -1,9 +1,8 @@
 
 import React from 'react'
 import nxtrendz from '../assets/portfolio/nxtrendz.png'
-import profileCard from '../assets/portfolio/profileCard.png'
 import nxtvideo from '../assets/portfolio/nxtvideo.png'
-import password from '../assets/portfolio/password.png'
+import foodmunch from '../assets/portfolio/foodmunch.png'
 function Portfolio() {
 
     const portfolios = [
@@ -12,26 +11,17 @@ function Portfolio() {
             id: 1,
             src: nxtvideo,
             demoLink:'https://pavanvideosnxt.ccbp.tech',
-            codeLink:'https://github.com/pavankumarreddys/Nxt-Watch-Assignment',
         },
         {
             id: 2,
             src: nxtrendz,
             demoLink:'https://pavantrends.ccbp.tech',
-            codeLink:'https://github.com/santosh-kuchetti/movingTaxi',
         },
         
-        // {
-        //     id: 3,
-        //     src: digitalClock,
-        //     demoLink: 'https://santosh-kuchetti.github.io/digitalClock/',
-        //     codeLink: 'https://github.com/santosh-kuchetti/digitalClock',
-        // },
         {
             id: 3,
-            src: password,
-            demoLink: 'https://santosh-kuchetti.github.io/profilrCardHoverEffect/',
-            codeLink: 'https://github.com/santosh-kuchetti/profilrCardHoverEffect',
+            src: foodmunch,
+            demoLink: 'https://pavanfoodies.ccbp.tech/',
         },
      ]
 
@@ -43,32 +33,20 @@ function Portfolio() {
                   <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
                   <p className='py-6 text-xl'>Check out some of my work right here</p>
               </div>
-
               <div className='grid sm:grid-cols-3 md:grid-col-1 lg-grid-col-1 gap-8 px-12 sm:px-0'>
-
               {
-                      portfolios.map(({ id, src, codeLink,demoLink }) => (
-                      <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                      <img src={src} alt='' className='rounded-t-md  duration-200 hover:scale-105 hover:rounded-md' />
-                              <div className='flex items-center justify-center'>
-                                  <a href={demoLink} target='_blank' rel='noreferrer'>
-                                      <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                                  </a>
-                              
-                                <a href={codeLink} target='_blank' rel='noreferrer'>
-                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
-                                </a>
-                          
-                      </div>
+                portfolios.map(({ id, src, codeLink,demoLink }) => (
+                    <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+                    <img src={src} alt='' className='rounded-t-md  duration-200 hover:scale-105 hover:rounded-md' />
+                        <div className='flex items-center justify-center'>
+                            <a href={demoLink} target='_blank' rel='noreferrer'>
+                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
+                            </a>
                         </div>
+                    </div>
                   ))
               }
-              
-              
-                  
               </div>
-
-              
            </div>
     </div>
   )

@@ -21,9 +21,6 @@ function Home() {
                 Portfolio
                 <span className='group-hover:rotate-90 duration-300 '><HiOutlineArrowNarrowRight size={20} className='ml-1' /></span>
               </Link>
-            
-              
-            
           </div>
         </div>
         <div>

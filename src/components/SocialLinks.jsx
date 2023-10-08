@@ -14,9 +14,7 @@ function SocialLinks() {
                 </>
             ),
             href: 'https://www.linkedin.com/in/sannala-pavan-kumar-reddy-748123154/',
-            style:'rounded-tr-md'
-                
-                
+            style:'rounded-tr-md'    
         },
         {
             id: 2,
@@ -26,9 +24,7 @@ function SocialLinks() {
                 </>
             ),
             href: 'https://github.com/pavankumarreddys',
-            
-                
-                
+                 
         },
         {
             id: 3,
@@ -37,10 +33,7 @@ function SocialLinks() {
                     Mail <HiOutlineMail size={30} />
                 </>
             ),
-            href: 'mailto:pavanreddyr34.gmail.com',
-            
-                
-                
+            href: 'mailto:pavanreddyr34.gmail.com',     
         },
         {
             id: 4,
@@ -59,9 +52,6 @@ function SocialLinks() {
 
   return (
       <div className='hidden lg:flex  flex flex-col top-[35%] left-0 fixed'>
-          
-          
-
           <ul>
               {links.map(({ id, child, href, style, download }) => (
                   // eslint-disable-next-line no-useless-concat
@@ -71,8 +61,7 @@ function SocialLinks() {
                           className="flex justify-between items-center w-full text-white"
                           download={download}
                           target='_blank'
-                          rel='noreferrer'
-                          
+                          rel='noreferrer'   
                       >
                         {child}
                       </a>
