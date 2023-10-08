@@ -10,11 +10,7 @@ const About = () => {
                   </p>
               </div>
               
-                  <p className='text-xl mt-20'>
-                  A motivated and enthusiastic individual with strong interpersonal skills, highly articulate and effective communicator, robust sense of humor, team player, and highly adaptive to new situations.
-Tech enthusiast who loves to take on new challenges and learn new skills in life.
-Web developer with hands on experience of building web applications using technologies like Java, Javascript, Node.js, Express.js, HTML5, CSS, Bootstrap, MongoDB, and MySQL. Designed projects such as creating E-commerce Rest API and building a User management system for the E-commerce web application.
-
+                  <p className='text-xl mt-20'>Hello! I'm Pavan Kumar Reddy Sannala, a frontend developer with a passion for crafting delightful web experiences. With expertise in HTML5, CSS3, JavaScript and react js, I specialize in building responsive and interactive user interfaces. I'm proficient in React.js, allowing me to create dynamic and feature-rich web applications. My toolkit also includes Python for scripting and SQL for database operations. I'm skilled in Bootstrap and Flexbox, ensuring clean and efficient design. As a frontend enthusiast, I'm dedicated to continuous learning and staying updated with the latest industry trends. Let's connect and explore exciting opportunities in the world of frontend development.
               </p>
               <br/>
               <p className='text-xl'>

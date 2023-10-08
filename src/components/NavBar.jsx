@@ -22,15 +22,11 @@ function NavBar() {
         },
         {
             id: 4,
-            link: 'experience',
-        },
-        {
-            id: 5,
             link: 'skills',
         },
         
         {
-            id: 6,
+            id: 5,
             link: 'contact',
         },
     ]
@@ -41,7 +37,7 @@ function NavBar() {
           
               <div>
               <Link to='home' smooth duration={500}>
-                  <h1 className='text-5xl font-signature ml-2'>Santosh</h1>
+                  <h1 className='text-5xl font-signature ml-2'>Pavan Sannala</h1>
               </Link>
                   
               
@@ -74,14 +70,8 @@ function NavBar() {
                   {links.map(({ id, link }) => (
                       <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 duration-200 hover:text-gray-100">
                           <Link onClick={handleClick} to={link} smooth duration-400>{link}</Link>
-
                       </li>
                   ))}
-                  
-
-                  
-
-
               </ul>
           )}
 

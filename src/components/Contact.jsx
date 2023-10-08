@@ -10,7 +10,7 @@ function Contact() {
               </div>
               
               <div className='flex  justify-center items-center'>
-                  <form action="https://getform.io/f/32333f03-27db-4c06-9429-accf7e31c2ee" method='post' className='flex flex-col w-full md:w-1/2' >
+                  <form action="https://getform.io/f/74049272-7867-499c-a36b-b5f7a71f1a64" method='post' className='flex flex-col w-full md:w-1/2' >
                       <input type="text" name='name' placeholder='Enter your name'
                           className='p-2 bg-transparent border-2 text-white rounded-md  focus:outline-none '/>
                       <input type="email" name='email' placeholder='Enter your email'

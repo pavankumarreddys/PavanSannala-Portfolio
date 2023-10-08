@@ -13,7 +13,7 @@ function SocialLinks() {
                     LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https://www.linkedin.com/in/santoshkuchetti/',
+            href: 'https://www.linkedin.com/in/sannala-pavan-kumar-reddy-748123154/',
             style:'rounded-tr-md'
                 
                 
@@ -25,7 +25,7 @@ function SocialLinks() {
                     GitHub <FaGithub size={30} />
                 </>
             ),
-            href: 'https://github.com/santosh-kuchetti',
+            href: 'https://github.com/pavankumarreddys',
             
                 
                 
@@ -37,7 +37,7 @@ function SocialLinks() {
                     Mail <HiOutlineMail size={30} />
                 </>
             ),
-            href: 'mailto:kuchettisantosh.gmail.com',
+            href: 'mailto:pavanreddyr34.gmail.com',
             
                 
                 
@@ -49,7 +49,7 @@ function SocialLinks() {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: './santoshkuchetti_resume2.pdf',
+            href: './PAVAN SANNALA RESUME (2).pdf',
             style: "rounded-br-md",
             download:true,
                 

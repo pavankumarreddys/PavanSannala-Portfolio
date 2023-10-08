@@ -1,25 +1,23 @@
 
 import React from 'react'
-// import digitalClock from '../assets/portfolio/digitalClock.png'
-import movingTaxi from '../assets/portfolio/movingTaxi.png'
- import profileCard from '../assets/portfolio/profileCard.png'
-import quiz from '../assets/portfolio/quiz.png'
-
-
+import nxtrendz from '../assets/portfolio/nxtrendz.png'
+import profileCard from '../assets/portfolio/profileCard.png'
+import nxtvideo from '../assets/portfolio/nxtvideo.png'
+import password from '../assets/portfolio/password.png'
 function Portfolio() {
 
     const portfolios = [
     
         {
             id: 1,
-            src: quiz,
-            demoLink:'https://flashcardquiz-santoshkumarkuchettireactproject.netlify.app',
-            codeLink:'https://github.com/santosh-kuchetti/flashCard-Quiz',
+            src: nxtvideo,
+            demoLink:'https://pavanvideosnxt.ccbp.tech',
+            codeLink:'https://github.com/pavankumarreddys/Nxt-Watch-Assignment',
         },
         {
             id: 2,
-            src: movingTaxi,
-            demoLink:'https://santosh-kuchetti.github.io/movingTaxi/',
+            src: nxtrendz,
+            demoLink:'https://pavantrends.ccbp.tech',
             codeLink:'https://github.com/santosh-kuchetti/movingTaxi',
         },
         
@@ -31,7 +29,7 @@ function Portfolio() {
         // },
         {
             id: 3,
-            src: profileCard,
+            src: password,
             demoLink: 'https://santosh-kuchetti.github.io/profilrCardHoverEffect/',
             codeLink: 'https://github.com/santosh-kuchetti/profilrCardHoverEffect',
         },
