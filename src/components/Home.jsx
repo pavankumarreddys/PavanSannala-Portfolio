@@ -8,7 +8,7 @@ function Home() {
     <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 ">
       <div className="justify-center items-center max-w-screen-lg mx-auto flex flex-col h-full px-4 md:flex-row">
         <div className="justify-center h-full flex flex-col">
-          <h2 className='text-white text-4xl font-bold md:text-7xl'>I'am a Front-End Developer</h2>
+          <h2 className='text-white text-4xl font-bold md:text-7xl'>I'am  a Front-End Developer</h2>
           <p className='text-gray-500 py-4 max-w-md'>
             I have hands on experience of building web applications.
             Currently, I love to work on web application using technologies like
