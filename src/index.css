@@ -11,3 +11,54 @@
     font-family: 'Raleway', sans-serif;
   }
 }
+
+.waviy {
+  position: relative;
+  /* -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2)); */
+  padding-top: 10px;
+}
+@media screen and (min-width:767px){
+  .waviy{
+    font-size: 60px;
+  }
+}
+
+.waviy span {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  /* text-transform: uppercase; */
+  animation: waviy 3s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+/* HomePage.css */
+.home-page {
+  text-align: center;
+}
+
+.blast {
+  animation: blastAnimation 1s ease-in-out;
+}
+
+@keyframes blastAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

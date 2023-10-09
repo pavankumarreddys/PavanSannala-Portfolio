@@ -73,7 +73,14 @@ function Skills() {
       <div name='skills' className='bg-gradient-to-b from-gray-800 to-black  w-full h-full pt-40'>
             <div className='flex flex-col justify-center w-full h-full text-white max-w-screen-lg mx-auto p-4'>
                 <div>
-                  <p className='text-4xl font-bold p-2 inline border-b-4 border-gray-500 '>Skills</p>
+                  <div className="waviy text-4xl font-bold inline border-b-4 border-gray-500">
+                        <span style={{ "--i": "1" }}>S</span>
+                        <span style={{ "--i": "2" }}>k</span>
+                        <span style={{ "--i": "3" }}>i</span>
+                        <span style={{ "--i": "5" }}>l</span>
+                        <span style={{ "--i": "4" }}>l</span> 
+                        <span style={{ "--i": "4" }}>s</span> 
+                  </div>
                   <p className='py-6 text-xl'>These are the technologies I've worked with</p>
               </div>
 

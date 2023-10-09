@@ -30,7 +30,17 @@ function Portfolio() {
           <div className='max-w-screen-lg md:w-full p-4 mx-auto flex flex-col justify-center
           w-full h-full'>
               <div className='pb-8'>
-                  <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
+                  <div className="waviy text-4xl font-bold inline border-b-4 border-gray-500">
+                        <span style={{ "--i": "1" }}>P</span>
+                        <span style={{ "--i": "2" }}>o</span>
+                        <span style={{ "--i": "3" }}>r</span>
+                        <span style={{ "--i": "5" }}>t</span>
+                        <span style={{ "--i": "4" }}>f</span> 
+                        <span style={{ "--i": "4" }}>o</span> 
+                        <span style={{ "--i": "4" }}>l</span> 
+                        <span style={{ "--i": "4" }}>i</span> 
+                        <span style={{ "--i": "4" }}>o</span>
+                  </div>
                   <p className='py-6 text-xl'>Check out some of my work right here</p>
               </div>
               <div className='grid sm:grid-cols-3 md:grid-col-1 lg-grid-col-1 gap-8 px-12 sm:px-0'>

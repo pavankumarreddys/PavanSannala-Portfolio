@@ -1,0 +1,89 @@
+// @import 'sass:color';
+// @import 'sass:map';
+
+.animation-container {
+    position: relative;
+    width: 100px;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #3498db;
+    border-radius: 50%;
+    animation-duration: 4s; /* Duration of the animation */
+    animation-timing-function: linear; /* Linear timing function */
+    animation-iteration-count: infinite; /* Infinite animation loop */
+  }
+  
+  /* Ball 1 animation */
+  .ball1 {
+    left: 0;
+    bottom: -30px;
+    animation-name: moveBall1;
+    animation-delay: 0s;
+  }
+  
+  /* Ball 2 animation */
+  .ball2 {
+    left: 25px;
+    bottom: -30px;
+    animation-name: moveBall2;
+    animation-delay: 0.5s; /* Delay the animation */
+  }
+  
+  /* Ball 3 animation */
+  .ball3 {
+    left: 50px;
+    bottom: -30px;
+    animation-name: moveBall3;
+    animation-delay: 1s; /* Delay the animation */
+  }
+  
+  /* Ball 4 animation */
+  .ball4 {
+    left: 75px;
+    bottom: -30px;
+    animation-name: moveBall4;
+    animation-delay: 1.5s; /* Delay the animation */
+  }
+  
+  @keyframes moveBall1 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(150px); /* Move to the middle */
+    }
+  }
+  
+  @keyframes moveBall2 {
+    0% {
+      transform: translateY(0) rotate(45deg);
+    }
+    100% {
+      transform: translateY(150px) rotate(45deg); /* Move to the middle */
+    }
+  }
+  
+  @keyframes moveBall3 {
+    0% {
+      transform: translateY(0) rotate(90deg);
+    }
+    100% {
+      transform: translateY(150px) rotate(90deg); /* Move to the middle */
+    }
+  }
+  
+  @keyframes moveBall4 {
+    0% {
+      transform: translateY(0) rotate(135deg);
+    }
+    100% {
+      transform: translateY(150px) rotate(135deg); /* Move to the middle */
+    }
+  }
+  
