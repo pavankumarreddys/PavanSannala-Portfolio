@@ -21,15 +21,7 @@ function App() {
         <title>PavanSannala || Portfolio</title>
         <meta name="description" content="portfolio of Pavan Sannala" />
       </Helmet>
-    {blast? <div className="animation-container">
-      {/* Four balls with different animation delays */}
-      <div className="ball ball1">hii</div>
-      <div className="ball ball2"></div>
-      <div className="ball ball3"></div>
-      <div className="ball ball4"></div>
-    </div>
-:
-    <>
+
       <NavBar />
       <Home />
       <About />
@@ -37,8 +29,8 @@ function App() {
       <Skills/>
       <Contact/>
       <SocialLinks/>
-      </>
-  }
+    
+  
     </div>
   );
 }

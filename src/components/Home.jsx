@@ -1,11 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import  heroImage from '../assets/heroImage.png'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 import{Link} from 'react-scroll'
 import 'animate.css';
-import { useSearchParams } from 'react-router-dom';
+
 
 function Home() {
+  
   return (
     <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 ">
       <div className="justify-center items-center max-w-screen-lg mx-auto flex flex-col h-full px-4 md:flex-row">
